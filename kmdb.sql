@@ -156,6 +156,26 @@ INSERT INTO movies (
     "PG-13"
 );
 
+INSERT INTO movies (
+    "movie_name",
+    "year_released",
+    "rating"
+) VALUES (
+    "The Dark Knight",
+    "2008",
+    "PG-13"
+);
+
+INSERT INTO movies (
+    "movie_name",
+    "year_released",
+    "rating"
+) VALUES (
+    "The Dark Knight Rises",
+    "2012",
+    "PG-13"
+);
+
 -- Prints a header for the movies output
 .print "Movies"
 .print "======"
@@ -165,7 +185,6 @@ INSERT INTO movies (
 -- TODO!
 
 SELECT * FROM movies;
-SELECT * FROM studios;
 
 -- Prints a header for the cast output
 .print ""
